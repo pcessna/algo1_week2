@@ -111,12 +111,7 @@ public class Deque<Item> implements Iterable<Item> {
 	}
 
 	public static void main(String[] args) {
-		Deque test = new Deque();
-		test.addFirst("hi");
-		test.addLast("goodbye");
 
-		System.out.print(test.removeFirst() + "\n");
-		System.out.print(test.removeLast() + "\n");
 	}
 
 }
